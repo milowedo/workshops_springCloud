@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://config-server:8888
